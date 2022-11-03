@@ -6,3 +6,42 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* NAV */
+
+.nav__container{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 32px 0 32px;
+}
+
+.logo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom-width: 0px;
+    font-weight: 900;
+    margin-left: 0px !important;
+    font-size: 1.5rem !important; 
+}
+
+.logo__img {
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+}
