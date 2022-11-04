@@ -45,3 +45,8 @@ li {
     width: 40px;
     margin-right: 12px;
 }
+
+.nav__link {
+    font-size:14px;
+    padding: 24px;
+}
