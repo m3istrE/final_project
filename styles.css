@@ -22,6 +22,22 @@ img {
     width: 100%;
 }
 
+h2 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    background-color: #3B3486;
+}
+
+section:nth-child(even){
+    background-color: #7743DB;
+}
+
 /* Nav */
 
 nav{
@@ -90,4 +106,18 @@ h1 {
 
 .home__description--button:active {
     transform: translatey(1px);
+}
+
+/* About */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.section__description {
+    display: flex;
+    align-items: center;
 }
